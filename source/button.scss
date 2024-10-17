@@ -1,0 +1,13 @@
+
+
+    .button {
+    background-color: $cor-button;
+    color: $cor-texto;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+}
+    .button:hover {
+    background-color: $cor-button-hover;
+}  

@@ -1,0 +1,35 @@
+
+
+
+    .products {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 32.66%); 
+    column-gap: 1%;
+    row-gap: 4%;
+    width: 100%;
+}
+    .product-item {
+    width: 180px; 
+    height: 180px;
+    text-align: center;
+}  
+    .product-item img {
+    width: 100%;
+    border-radius: 16px;
+    background-color: $cor-produtos-item-img; 
+}
+
+    .product-button {
+    display: block;
+    background-color: $cor-button;
+    color: $cor-texto;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 8px;
+    margin-top: 8px;
+    text-decoration: none;
+}    
+    .product-button:hover {
+    background-color: $cor-button-hover;
+}  
