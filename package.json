@@ -1,0 +1,16 @@
+{
+  "name": "exercico_17",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "less": "less-watch-compiler ./src/styles ./build/styles main.less",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "less": "^4.2.0",
+    "watch-compiler": "^1.1.0"
+  }
+}
